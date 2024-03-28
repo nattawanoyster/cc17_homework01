@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="hmstyles.css">
+</head>
+
+<body>
+    <hr />
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./edu.html">Education</a></li>
+        <li><a href="./workexpre.html">Work Experience</a></li>
+        <li><a href="#">Contact Me</a></li>
+    </ul>
+    <hr />
+
+    <div>
+        <h1>Contact Me</h1>
+    </div>
+
+    <form action="./index.html" method="get">
+        <fieldset>
+            <p> Enter you info</p>
+            <label> Your Name <br /> <input type="text" id="fullname" name="fullname"></label> <br />
+            <br />
+            <label> Your E-mail <br /> <input type="email" id="email" name="email"></label>
+            <br />
+            <br />
+
+            <label for="gender"> Gender</label> <br />
+            <select name="gender" id="gender">
+                <option value="select">select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="LGBTQ+">LGBTQ+</option>
+            </select>
+            <br />
+            <br />
+
+            <p class="message">Message</p>
+            <textarea rows="8" cols="50" name="comment" form="usrform"> </textarea> <br />
+
+            <button type="submit"> send </button>
+            <button type="reset"> clear </button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;}
+
+  img {
+        border-radius: 50%;
+    }
+
+    .table-edu {
+        border: 1px solid;
+        border-collapse: collapse;
+        width: 800px;  
+    }
+    
+    .table-edu td {  
+        border: 1px solid; 
+        padding: 8px;
+        text-align: left;
+    }
+    .table-edu th {  
+        border: 1px solid; 
+        padding: 8px;
+        text-align: center;
+    }
+
+    .table-work {
+        border: 1px solid;
+        border-collapse: collapse;
+        width: 800px;  
+    }
+
+    .table-work td {  
+        border: 1px solid; 
+        padding: 5px;
+        text-align: left;
+    }
+
+    .table-year {
+        background-color: rgb(193, 221, 230);
+        border: 1px solid; 
+        padding: 5px;
+        text-align: left;
+    }
+
+    .message {
+        margin-bottom: 5px;
+    }
